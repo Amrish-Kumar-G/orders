@@ -1,0 +1,17 @@
+[  
+    {    
+      "product_name": "Apple",  
+      "price": 40,  
+      "quantity": 3  
+    },  
+    {  
+      "product_name": "Sapota",  
+      "price": 1,  
+      "quantity": 10  
+    },  
+    {  
+      "product_name": "Strawberry",  
+      "price": 5,  
+      "quantity":6  
+    }
+  ]  

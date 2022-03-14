@@ -7,3 +7,10 @@
         <li class="logout">Logout</li>
     </ul>
 </div>
+<div class="list">
+    <ul *ngFor="let orderlist of orderlists">
+        <li>{{orderlist.product_name}}</li>
+        <li>$ {{orderlist.price * orderlist.quantity}}</li>
+        <li>{{orderlist.quantity}} kg</li>
+    </ul>
+</div>
