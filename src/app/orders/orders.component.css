@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(135, 134, 190);
+}
 .headcomp{
     background-color: rgb(9, 13, 71);
     padding: 32px 0 7px 0;
@@ -24,12 +27,38 @@
 .pages a:hover{
 font-size: 24px;
 }
-.list{
+table {
+    font-family: arial, sans-serif;
+    width: 50%;
+    align-items: center;
+    padding: auto;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 7%;
+  }
+  th{
+      background-color: blue;
+  }
+  td{
+      background-color: grey;
+  }
+  td, th {
+    border: none;
+    text-align: left;
+    padding: 20px;
+    color: white;
+  }
+  .pay{
+      width: 6%;
+      text-align: center;
+      padding: 10px;
+      margin-top: 2%;
+    float: right;
+    margin-right: 25%;
+    border-radius: 25%;
     color: black;
-
-}
-.list ul{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-}
+    background: linear-gradient(to bottom,rgb(132, 156, 221) 70%,rgb(169, 168, 218));
+  }

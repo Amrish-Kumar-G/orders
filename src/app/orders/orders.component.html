@@ -1,3 +1,4 @@
+<div class="back">
 <div class="headcomp">
     <ul class="title">
         <li class="brand">Fruits Crush</li>
@@ -7,10 +8,20 @@
         <li class="logout">Logout</li>
     </ul>
 </div>
-<div class="list">
-    <ul *ngFor="let orderlist of orderlists">
-        <li>{{orderlist.product_name}}</li>
-        <li>$ {{orderlist.price * orderlist.quantity}}</li>
-        <li>{{orderlist.quantity}} kg</li>
-    </ul>
+<div>
+    <table id="productCartBody">
+        <tr>
+            <th>ProductName</th>
+            <th>Price</th>
+            <th>Quantity</th>
+          </tr>
+          <tr *ngFor="let orderlist of orderlists">
+            <td>{{orderlist.product_name}}</td>
+            <td>$ {{orderlist.price * orderlist.quantity}}</td>
+            <td>{{orderlist.quantity}} kg</td>
+          </tr>
+    </table>
+</div>
+<br><br>
+<button class="pay">Pay</button>
 </div>
